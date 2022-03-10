@@ -1,16 +1,24 @@
+# README
 
-# Spendsy
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-Money management made simple.
+Things you may want to cover:
 
-Spendsy is a money management application that allows users to keep track of their income and expenses. Initially developed with Sinatra, this version of Spendsy has been updated to utilize a Rails backend with a React frontend. Application layout and styling conceptualized in Figma.
+* Ruby version
 
-Features include :
+* System dependencies
 
-- Multiple user accounts supported by Active Storage
-- Full CRUD capabilities
-- Login and Signup functionality
-- Password protection and validation
-- Front and backend error-handling 
-- Custom CSS 
+* Configuration
 
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
