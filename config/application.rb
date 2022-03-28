@@ -25,11 +25,11 @@ module SpendsyRailsBackend
     # config.eager_load_paths << Rails.root.join("extras")
     config.action_dispatch.cookies_same_site_protection = :strict
 
-    use Rack::Cors do
+    config.middleware.insert_before 0, Rack::Cors do
       allow do
         origins '*'
         resource '*', headers: :any, methods: :any
-      end  
+      end
     end
   end
 end
