@@ -24,5 +24,12 @@ module SpendsyRailsBackend
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
     config.action_dispatch.cookies_same_site_protection = :strict
+
+    use Rack::Cors do
+      allow do
+        origins '*'
+        resource '*', headers: :any, methods: :any
+      end  
+    end
   end
 end
